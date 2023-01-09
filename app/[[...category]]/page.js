@@ -3,6 +3,7 @@ import HomeContainer from '@/containers/home'
 const inter = Inter({ subsets: ['latin'] })
 import Movies from '@/mocks/movies.json'
 export default function Home({params}) {
+    
     let selectedCategory;
     if(params.category?.length>0){
         selectedCategory=true;
